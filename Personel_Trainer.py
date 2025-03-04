@@ -6,13 +6,13 @@ import mediapipe as mp
 # video okuma
 cap=cv2.VideoCapture('spor1.mp4')
 
-# vücutu okucak sınıf
+# vücudu okucak sınıf
 my_pose = mp.solutions.pose
 
-# vucutum detect edecek bir fonksiyon oluşturdum
+# vucudum detect edecek bir fonksiyon oluşturdum
 body=my_pose.Pose()
 
-# vücutun çizimi
+# vücudun çizimi
 draw=mp.solutions.drawing_utils
 
 miktar=0
